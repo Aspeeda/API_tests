@@ -1,0 +1,20 @@
+curl 'https://demowebshop.tricentis.com/customer/addressedit/2629637' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: ARRAffinity=fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b; ARRAffinitySameSite=fc06465c332dbd696c292ada76ec7d7733108ecefdc4475406a3ff997944f96b; __utma=78382081.1876090114.1675761479.1675761479.1675840532.2; __utmc=78382081; __utmz=78382081.1675840532.2.2.utmcsr=qa.guru|utmccn=(referral)|utmcmd=referral|utmcct=/; NOPCOMMERCE.AUTH=834490656B444025433B0A4C3CE0561862C27D4D8BAB05B4157F57B1CFAC3E6A04BD96C7D00B67F2E3089D772949A8A7E8E7914DB9AB5E2B48F6A07BB6D641ED6F103FDE29FA39B21432A289271FF23FB84E80D3DFDCC95657A30F8F59DD25EB5CD8E99CEE323028563BD8B8E54D9A208CD3677579D88A5B8EF4E8BCD209484CBDCF248451793EF64B11D34A9C90CBD3; Nop.customer=bccc3d3b-96f1-4e02-aef5-52bd4ae25d47; __utmt=1; __RequestVerificationToken=p2Y8LzK88u5LRHVe-sshlK7FJvlvtwFQQqIc_8ZS2GaWjozOjQseB2B67qxIpU64t9ivrGYflWXvtI8-hFCLWulnyG6CEmirIm9BUzIExfM1; __utmb=78382081.10.10.1675840532' \
+  -H 'Origin: https://demowebshop.tricentis.com' \
+  -H 'Referer: https://demowebshop.tricentis.com/customer/addressedit/2629637' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw 'Address.Id=2629637&Address.FirstName=Test&Address.LastName=Test&Address.Email=test%40mail.ru&Address.Company=&Address.CountryId=88&Address.StateProvinceId=0&Address.City=city&Address.Address1=test&Address.Address2=&Address.ZipPostalCode=233&Address.PhoneNumber=343&Address.FaxNumber=' \
+  --compressed
