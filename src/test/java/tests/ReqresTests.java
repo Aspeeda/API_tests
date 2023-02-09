@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.Matchers.is;
 
-public class ReqresTests {
+public class ReqresTests extends TestBase {
 
         /*
         1. Make POST request to https://reqres.in/api/login

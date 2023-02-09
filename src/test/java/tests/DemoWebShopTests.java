@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
-public class DemoWebShopTests {
+public class DemoWebShopTests extends TestBase{
 
     @BeforeAll
     public static void setUp() {

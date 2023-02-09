@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.hasKey;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SelenoidTests {
+public class SelenoidTests extends TestBase {
 
     /*
         1. Make request to https://selenoid.autotests.cloud/status
